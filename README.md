@@ -16,6 +16,18 @@ for i in range(len(augmented_images)):
 
 ## Data augmentation techniques
 
-- [x] hello
-- [] hfsdh
+- [x] Inversion
+- [x] Sobel derivative
+- [x] Scharr derivative
+- [x] Laplacian
+- [x] Blur
+- [x] Gaussian blur
+- [x] Median blur
+- [x] Bilateral blur
+- [x] Horizontal flips
+- [ ] Distortions
+- [ ] Random scales
+- [ ] Stretching
+- [ ] Color jittering
+- [ ] Shearing
 
