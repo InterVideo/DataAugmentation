@@ -1,4 +1,4 @@
-# Data augmentation tools [WIP]
+# [WIP] Data augmentation tools
 
 This repository provides tools for data augmentation using OpenCV.
 
