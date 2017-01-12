@@ -9,7 +9,6 @@ def data_augmentation(images, options={}):
 	random_scales = options.get('random_scales', True)
 	color_jitter = options.get('color_jitter', True)
 	shear = options.get('shear', True)
-	rotation_lens = options.get('rotation_lens', True)
 	inverse = options.get('inverse', True)
 	sobel_derivative = options.get('sobel_derivative', True)
 	scharr_derivative = options.get('scharr_derivative', True)
@@ -56,10 +55,6 @@ def data_augmentation(images, options={}):
 
 	# TODO
 	if shear:
-		augmented_images_set += []
-
-	# TODO
-	if rotation_lens:
 		augmented_images_set += []
 
 	if inverse:
